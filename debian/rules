@@ -5,7 +5,7 @@
 
 gcn_target_name = amdgcn-amdhsa
 
-llvm_ver = 13
+llvm_ver = 16
 
 override_dh_link:
 	dh_link -pamdgcn-tools \
