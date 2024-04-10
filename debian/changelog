@@ -1,3 +1,9 @@
+amdgcn-tools (17) unstable; urgency=medium
+
+  * Bump version to 17 (based on LLVM 17).
+
+ -- Matthias Klose <doko@debian.org>  Fri, 24 Nov 2023 11:10:24 +0100
+
 amdgcn-tools (16) unstable; urgency=medium
 
   * Bump version to 16 (based on LLVM 16).

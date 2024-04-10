@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Uploaders: Matthias Klose <doko@debian.org>
 Build-Depends: debhelper-compat (= 13),
-  llvm-16, lld-16
+  llvm-17, lld-17
 Standards-Version: 4.6.2
 #Vcs-Browser: https://salsa.debian.org/debian/amdgcn-tools
 #Vcs-Git: https://salsa.debian.org/debian/amdgcn-tools.git
@@ -13,7 +13,7 @@ Rules-Requires-Root: no
 Package: amdgcn-tools
 Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends},
-  llvm-16, lld-16
+  llvm-17, lld-17
 Breaks: gcc-10-offload-amdgcn (<< 10.2.1-6),
   gcc-11-offload-amdgcn (<< 11-20210110-0),
   gcc-snapshot (<< 1:20210110-0~)
